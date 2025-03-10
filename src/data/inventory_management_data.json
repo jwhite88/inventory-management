@@ -1,0 +1,247 @@
+{
+  "Categories": [
+    {
+      "category_id": 1,
+      "category_name": "Electronics",
+      "description": "Devices and gadgets including phones, laptops, and accessories."
+    },
+    {
+      "category_id": 2,
+      "category_name": "Furniture",
+      "description": "Household and office furniture items."
+    },
+    {
+      "category_id": 3,
+      "category_name": "Groceries",
+      "description": "Food and other essential grocery items."
+    }
+  ],
+  "Suppliers": [
+    {
+      "supplier_id": 1,
+      "name": "Tech Distributors Inc.",
+      "contact_name": "Alice Johnson",
+      "phone": "555-1234",
+      "email": "alice@techdistributors.com",
+      "address": "123 Tech Street, Silicon Valley, CA"
+    },
+    {
+      "supplier_id": 2,
+      "name": "Furniture World",
+      "contact_name": "Bob Smith",
+      "phone": "555-5678",
+      "email": "bob@furnitureworld.com",
+      "address": "456 Home Ave, New York, NY"
+    },
+    {
+      "supplier_id": 3,
+      "name": "Fresh Mart Supplies",
+      "contact_name": "Carol Davis",
+      "phone": "555-9876",
+      "email": "carol@freshmart.com",
+      "address": "789 Market St, Chicago, IL"
+    }
+  ],
+  "Products": [
+    {
+      "product_id": 1,
+      "name": "Smartphone X",
+      "description": "Latest 5G smartphone with high-resolution camera.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 799.99,
+      "stock_quantity": 50,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 2,
+      "name": "Gaming Laptop Pro",
+      "description": "Powerful gaming laptop with RTX 3080 GPU.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 1499.99,
+      "stock_quantity": 20,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 3,
+      "name": "Wireless Earbuds",
+      "description": "Noise-canceling Bluetooth earbuds.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 129.99,
+      "stock_quantity": 100,
+      "reorder_level": 20
+    },
+    {
+      "product_id": 4,
+      "name": "Smartwatch Series 7",
+      "description": "Fitness tracking smartwatch with OLED display.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 249.99,
+      "stock_quantity": 30,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 5,
+      "name": "4K Smart TV",
+      "description": "65-inch 4K Ultra HD Smart TV.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 899.99,
+      "stock_quantity": 15,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 6,
+      "name": "Office Desk",
+      "description": "Ergonomic wooden office desk.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 299.99,
+      "stock_quantity": 15,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 7,
+      "name": "Dining Chair Set",
+      "description": "Set of 4 modern dining chairs.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 199.99,
+      "stock_quantity": 30,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 8,
+      "name": "Bookshelf",
+      "description": "5-tier wooden bookshelf.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 149.99,
+      "stock_quantity": 25,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 9,
+      "name": "Sofa Set",
+      "description": "Luxury leather sofa set.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 1299.99,
+      "stock_quantity": 10,
+      "reorder_level": 3
+    },
+    {
+      "product_id": 10,
+      "name": "Standing Lamp",
+      "description": "Modern standing lamp with LED bulb.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 89.99,
+      "stock_quantity": 40,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 11,
+      "name": "Organic Apples",
+      "description": "Fresh organic apples, 1lb pack.",
+      "category_id": 3,
+      "supplier_id": 3,
+      "price": 3.99,
+      "stock_quantity": 100,
+      "reorder_level": 20
+    },
+    {
+      "product_id": 12,
+      "name": "Whole Grain Bread",
+      "description": "Healthy whole grain bread, 500g loaf.",
+      "category_id": 3,
+      "supplier_id": 3,
+      "price": 2.49,
+      "stock_quantity": 50,
+      "reorder_level": 15
+    },
+    {
+      "product_id": 13,
+      "name": "Almond Milk",
+      "description": "Unsweetened almond milk, 1L.",
+      "category_id": 3,
+      "supplier_id": 3,
+      "price": 4.99,
+      "stock_quantity": 40,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 14,
+      "name": "Brown Rice",
+      "description": "2kg pack of organic brown rice.",
+      "category_id": 3,
+      "supplier_id": 3,
+      "price": 6.99,
+      "stock_quantity": 30,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 15,
+      "name": "Olive Oil",
+      "description": "Extra virgin olive oil, 1L bottle.",
+      "category_id": 3,
+      "supplier_id": 3,
+      "price": 12.99,
+      "stock_quantity": 25,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 16,
+      "name": "LED Desk Lamp",
+      "description": "Dimmable LED desk lamp with USB charging port.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 49.99,
+      "stock_quantity": 35,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 17,
+      "name": "Bluetooth Speaker",
+      "description": "Portable waterproof Bluetooth speaker.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 79.99,
+      "stock_quantity": 60,
+      "reorder_level": 15
+    },
+    {
+      "product_id": 18,
+      "name": "Electric Kettle",
+      "description": "1.7L stainless steel electric kettle.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 29.99,
+      "stock_quantity": 50,
+      "reorder_level": 10
+    },
+    {
+      "product_id": 19,
+      "name": "Coffee Table",
+      "description": "Modern glass-top coffee table.",
+      "category_id": 2,
+      "supplier_id": 2,
+      "price": 199.99,
+      "stock_quantity": 20,
+      "reorder_level": 5
+    },
+    {
+      "product_id": 20,
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with rechargeable battery.",
+      "category_id": 1,
+      "supplier_id": 1,
+      "price": 39.99,
+      "stock_quantity": 80,
+      "reorder_level": 20
+    }
+  ]
+}
